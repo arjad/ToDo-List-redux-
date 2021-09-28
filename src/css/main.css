@@ -1,0 +1,24 @@
+.card {
+  background: radial-gradient(circle, #9cb5cc 0%,#f6f7f8 100%);
+  margin: 0 1rem 1rem 0;
+  width: 18rem;
+  padding: 1rem;
+}
+.card textarea {
+  padding: 0.5rem;
+  border: none;
+  color: #271c6c;
+}
+.card textarea:disabled {
+  background-color: transparent;
+}
+
+.card button {
+  display: inline-block;
+  height: 30px;
+  width:30px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #271c6c;
+  background-color: transparent;
+}
